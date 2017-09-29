@@ -13,7 +13,7 @@ body {
     padding: 10px;
     display: subgrid;
     margin: 0;
-    background-image: url("/media/work%20play.jpg");
+    background-image: url("media/work%20play.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -67,10 +67,9 @@ p {
     border-radius: 10px;
 }
 #header {
-    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
     max-width: 100%;
     background-color: darkgray;
-    background-image: url("/media/PSX_20170914_202530.jpg");
+    background-image: url("media/PSX_20170914_202530.jpg");
     background-size: cover;
 }
 img{
