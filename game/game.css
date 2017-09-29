@@ -1,0 +1,124 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #efefef;
+    background-size: cover;
+    background-image: url("logo.png");
+    padding: 10px;
+    margin: 0;
+}
+h1{
+    margin:0;
+    padding:0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 60%;
+}
+#header{
+    opacity: 0.6;
+    background-attachment: fixed;
+    background-attachment: inherit;
+    background-image: url("header.jpg");
+    background-size: cover;
+    opacity: inherit;
+}
+#header img {
+    display: block;
+    width: 90px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.section {
+    background-color: #fff;
+    background-image: url("work%20play.jpg")
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#wrapper {
+    float :center ;
+    height:350px;
+    width:310px;
+    margin-left:-6px;
+    border:3px solid #000000;    
+    border-radius:5px;
+    image-resolution: snap;
+    background-color: dodgerblue;
+    background-size:7.4%;
+    opacity: 0.9;
+}
+#result {
+    display:none;
+    text-align:center;
+    font-weight:bold;
+    margin-top:135px;
+}
+#score {
+    margin-top:-1px;
+    margin-left:5px;
+    font-weight:bold;
+    float:left;
+    position:relative;
+    z-index:2;
+}
+#target {
+    width:85px;
+    margin-top:-1px;
+    margin:0 auto;
+    font-weight:bold;
+    position:relative;
+    z-index:1;
+    opacity: 0.9;
+}
+#missed {
+    margin-top:-22px; 
+    margin-right:5px;
+    font-weight:bold;
+    float:right;
+}
+#container {
+    height:310px;
+    width:300px;
+    margin-left:5px;
+    display:none;
+    position:right;
+    z-index:3;
+}
+#box:hover {
+    cursor:pointer;
+}
+#box:active {
+   fill:#0000FF;
+   stroke-width:5px;
+}
+#bWrapper {
+    width:310px;
+    margin-top:3px;
+    margin-left:-6px;
+    text-align:center;
+}
+#start {
+    border-radius:40px ;
+    outline:none;
+}
+#start:active {
+    background-color:#FAFAD2;
+    border-color:#FAFAD2;
+}
+#start:hover {
+    cursor:pointer;
+}
+

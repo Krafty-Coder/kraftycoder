@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="http://allfont.net/allfont.css?fonts=ds-digital" rel="stylesheet" type="text/css" />
+        <title>Catch me if you can!</title>
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+        <link href="game.css" rel="stylesheet">
+        <script src="game.js"  type="text/javascript"></script>
+    </head>
+    <body>
+      <!-- header start -->
+        <div id="header" class="section">
+            <img alt="" class="img-circle" src="code.jpg">
+            <p>Coders_Hub. </p>
+        </div>
+        <!-- header end -->
+    <br/>
+       <div id="wrapper">
+         <section id="hide">
+             <p id="score">Score: 0</p>
+             <p id="target" align="center">Target: 100</p>
+             <p id="missed">Missed: 0</p>
+         </section>
+         
+         <section id="result">
+             <h1 id="gameOver" align="center">Game Over</h1>
+             <h1 id="fScore">Congratulations!</h1>
+             <p id="fMissed"></p>
+         </section>
+         
+         <svg id="container">
+             <rect id="box" height="50" width="50" x="" y="" fill="#00FFFF" stroke="black" onClick="score()"/>
+          </svg>
+        </div>
+        
+        <div id="bwrapper">
+             <button id="start" onClick="start()">Start</button>
+        </div>
+    </body>
+</html>

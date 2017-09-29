@@ -1,0 +1,266 @@
+html {
+	font-size: 
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 1rem;
+    justify-content: center;
+    text-align: center;
+    background-color: #efefef;
+    padding: 10px;
+    display: subgrid;
+    margin: 0;
+    background-image: url("/media/work%20play.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.97;
+}
+#first{
+    justify-content: center;
+    text-emphasis-position: below;
+    transform: scale(1.4, 1);
+    width: inherit;
+    height: 170px;
+    opacity: 0.;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration-style: dashed;
+    padding: 12px 0 18px 0;
+    text-emphasis-position: below;
+    opacity: 0.9;
+    font-stretch: expanded;
+}
+#title{
+    font-size: 2rem;
+    display: block;
+    object-position: center;
+    align-content: center;
+    color: aliceblue;
+}
+button {
+    font-size: 15px;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: auto;
+}
+button span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 80%;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#header {
+    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    max-width: 100%;
+    background-color: darkgray;
+    background-image: url("/media/PSX_20170914_202530.jpg");
+    background-size: cover;
+}
+img{
+    max-width: 100%;
+}
+#header img {
+    max-width: 10
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b460c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+.services{
+    background-color:floralwhite;
+    padding: 15px;
+    border-radius: 10px;
+    border: 10px solid floralwhite;
+    margin-bottom: 10px;
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #569;
+    font-weight: bold;
+    color: cyan;
+}
+.select{
+    background-color: antiquewhite;
+    font-style: italic;
+    color: black;
+}
+#logo{
+	border: 10px;
+	border-width: 10px;
+	width: 4opx;
+	height: 40px;
+	margin-right: 5px;
+	margin-left: 4px
+}
+.circular{
+    border-radius: 70;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3fb6b2;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+#location{
+    height: 300px;
+    font-size: 1.35rem;
+    display: block;
+    color: whitesmoke;
+    background-color: black;
+    border: 1px solid #cecece;
+    transform-style: preserve-3d;
+    padding-bottom: 10px;
+    border-color: black;
+}
+.sect{
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: azure;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    background-color: black;
+    opacity: 0.8;
+}
+#contacts {
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+}
+.game{
+	font-style: italic;
+    font-size: 12px;
+    color: #203499;
+    text-align: center;
+    padding: 12px 0 18px 0;
+    margin: auto;
+}
+video{
+	width: 480px;
+	height: 390px;
+	border: 10px solid #673499;
+	margin-right: 5px;
+	margin-left: 5px;
+
+}
+
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: white;
+    position: fixed;
+}
