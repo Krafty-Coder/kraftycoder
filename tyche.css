@@ -5,6 +5,8 @@ html {
 
 }
 body {
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Handlee', cursive;
     font-size: 1rem;
     justify-content: center;
@@ -19,6 +21,13 @@ body {
     background-attachment: fixed;
     opacity: 0.97;
 }
+//#about{
+    background-color: dimgray;
+    font-size: 18px;
+    height: 40px;
+    border-radius: 40%;
+}
+\
 #first{
     justify-content: center;
     text-emphasis-position: below;
@@ -40,19 +49,26 @@ body {
     object-position: center;
     align-content: center;
     color: aliceblue;
+    display: none;
 }
 button {
     font-size: 15px;
     color: #20bcd5;
     text-align: center;
     padding: 18px 0 18px 0;
-    margin: auto;
+}
+.ab:hover + .paragraph{
+    display: none; 
+}
+.paragraph{
+     
 }
 button span {
-    border: 4px dashed #20bcd5;
+    border: 4px;
     padding: 10px;
 }
-p {
+p { 
+    line-height: 1.5em;
     padding: 0;
     margin: 0;
 }
@@ -62,18 +78,23 @@ p {
 }
 .section {
     background-color: #fff;
-    maxwidth: 100%;
     padding: 15px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px
 }
 #header {
     max-width: 100%;
+    width: 100%;
     background-color: darkgray;
     background-image: url("media/PSX_20170914_202530.jpg");
     background-size: cover;
 }
-img{
+img, embed, object, video{
+    width: 100%;
     max-width: 100%;
 }
 #header img {
@@ -102,6 +123,7 @@ img{
     border-radius: 10px;
     border: 10px solid floralwhite;
     margin-bottom: 10px;
+    width: 100%;
 }
 table {
     width: 100%;
@@ -223,8 +245,9 @@ input, textarea {
     color: azure;
 }
 #contacts img {
-    height: 50px;
-    width: 50px;
+    border-radius: 80px;
+    height: 60px;
+    width: 60px;
     margin-left: 7px;
     margin-right: 7px;
 }
@@ -241,7 +264,7 @@ input, textarea {
     text-align: center;
 }
 .game{
-	font-style: italic;
+    font-style: italic;
     font-size: 12px;
     color: #203499;
     text-align: center;
